@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main", "master", "develop" ] # Jis branch par aap push karein
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master" ]    # Test text only
 
 jobs:
   compile-apk:
